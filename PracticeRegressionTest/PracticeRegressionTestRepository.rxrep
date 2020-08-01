@@ -1,0 +1,141 @@
+﻿<repository
+id="12f3992c-9a79-4709-9b46-6a509428e4a0"
+name="PracticeRegressionTestRepository">
+	<codegen
+	classname="PracticeRegressionTestRepository"
+	namespace="PracticeRegressionTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="3b5b03a9-687b-4b12-a379-fe338a2a6d19"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="dd4dc026-3133-49a2-b45a-45cbc1883825"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d327b3f3-902c-456d-8e8f-1e84e20855cb"
+			name="TbxUserName"
+			refimgid="a1ecad72-a999-4b66-9adc-f20ab5494e4d"
+			refpath="/dom[@domain='prodtest.enclarapharmacia.com']//input[#'tbxUserName']"
+			searchtimeout="30000ms">
+				/dom[@domain='prodtest.enclarapharmacia.com']//input[#'tbxUserName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f4691b86-2861-44b5-8816-7105919b2c69"
+			name="TbxPassword"
+			refimgid="bce6d589-5216-443c-a77a-2fc75be118c1"
+			refpath="/dom[@domain='prodtest.enclarapharmacia.com']//input[#'tbxPassword']"
+			searchtimeout="30000ms">
+				/dom[@domain='prodtest.enclarapharmacia.com']//input[#'tbxPassword']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2e02ed2c-dd0e-47eb-b890-840526b9d2f2"
+			name="BtnSubmit"
+			refimgid="29f8cf2c-79e7-4cbc-b158-4c0c9b48672c"
+			searchtimeout="30000ms">
+				/dom[@domain='prodtest.enclarapharmacia.com']//input[#$NewVariable]
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="8bbbc31b-9342-4eb1-8853-2c2f30d82c5b"
+			name="LnkPatients"
+			refimgid="cf966eb9-7674-474c-bbf7-05e09824cf29"
+			refpath="/dom[@domain='prodtest.enclarapharmacia.com']//a[#'lnkPatients']"
+			searchtimeout="30000ms">
+				/dom[@domain='prodtest.enclarapharmacia.com']//a[#'lnkPatients']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="370fac0f-11d7-41a2-b23a-b4c7c9ded312"
+			name="TbxPatientSearch"
+			refimgid="65c9176f-cbee-43b6-93a0-735009c3ee4e"
+			refpath="/dom[@domain='prodtest.enclarapharmacia.com']//input[#'tbxPatientSearch']"
+			searchtimeout="30000ms">
+				/dom[@domain='prodtest.enclarapharmacia.com']//input[#'tbxPatientSearch']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="bd335884-ce3a-400b-b959-aea694256768"
+			name="BtnPatientSearch"
+			refimgid="28a70e7f-f70e-4900-b804-db5eab0441de"
+			refpath="/dom[@domain='prodtest.enclarapharmacia.com']//input[#'btnPatientSearch']"
+			searchtimeout="30000ms">
+				/dom[@domain='prodtest.enclarapharmacia.com']//input[#'btnPatientSearch']
+			</item>
+			<item
+			addcaps="unknown,webelement,btag"
+			capname="btag"
+			id="bcceddc5-e429-433b-8044-85386759e4a2"
+			name="TapperJake"
+			refimgid="cee10d87-c623-4f6f-ae06-126d4be8b80f"
+			refpath="/dom[@domain='prodtest.enclarapharmacia.com']//table[#'grvPatient']/tbody/tr[2]/td[2]/table/tbody/tr/td[1]/span/b[@innertext='Tapper, Jake']"
+			searchtimeout="30000ms">
+				/dom[@domain='prodtest.enclarapharmacia.com']//table[#'grvPatient']/tbody/tr[2]/td[2]/table/?/?/tr/td[1]/?/?/b[@innertext='Tapper, Jake']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="ca5c4c85-c3cf-44dc-aed9-85b646086e53"
+			name="PatientSearch"
+			refimgid="ca92d5ef-421c-4ada-b845-90a9fba558e8"
+			refpath="/dom[@domain='prodtest.enclarapharmacia.com']//li[#'liPatSearch']/a[@innertext='Patient Search']"
+			searchtimeout="30000ms">
+				/dom[@domain='prodtest.enclarapharmacia.com']//li[#'liPatSearch']/a[@innertext='Patient Search']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="e4682e05-5dc1-4c09-9e3c-886d5ba17f55"
+			name="UcTopNavigationLbtnLogout"
+			refimgid="a3369ca9-87d4-4d77-8bc1-24583c965fb8"
+			refpath="/dom[@domain='prodtest.enclarapharmacia.com']//a[#'ucTopNavigation_lbtnLogout']"
+			searchtimeout="30000ms">
+				/dom[@domain='prodtest.enclarapharmacia.com']//a[#'ucTopNavigation_lbtnLogout']
+			</item>
+			<basepath>
+				/dom[@domain='prodtest.enclarapharmacia.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="dab575a2-4e64-4fd5-a3ce-96d126c60ea4"
+		name="NewVariable">
+			btnSubmit
+		</var>
+	</variables>
+</repository>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="PracticeRegressionTest"
+      id="610c9e5b-d4a3-4698-a844-0e9b95e24df2"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="PracticeRegressionTest"
+      id="610c9e5b-d4a3-4698-a844-0e9b95e24df2"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

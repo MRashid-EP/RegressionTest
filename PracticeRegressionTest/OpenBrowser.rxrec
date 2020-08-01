@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3457754c-711c-40df-abd5-971bf42ed63b"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="PracticeRegressionTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="IE"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://prodtest.enclarapharmacia.com/HPClient/Default.aspx
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="12f3992c-9a79-4709-9b46-6a509428e4a0"
+	name="PracticeRegressionTestRepository"
+	relativepath="PracticeRegressionTestRepository.rxrep">
+		<codegen
+		classname="PracticeRegressionTestRepository"
+		namespace="PracticeRegressionTest">
+		</codegen>
+		<rootfolder
+		id="3b5b03a9-687b-4b12-a379-fe338a2a6d19"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
